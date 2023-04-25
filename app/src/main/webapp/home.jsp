@@ -6,6 +6,7 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Olá Spring!!!</h1>
+        Teste
+        <h1>${mensagem}</h1>
     </body>
 </html>
