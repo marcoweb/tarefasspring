@@ -10,6 +10,6 @@ public class IndexController {
     @RequestMapping("/")
     public String home(@RequestParam("nome") String nome, Model model) {
         model.addAttribute("mensagem", "Olá " + nome);
-        return "home.jsp";
+        return "WEB-INF/home.jsp";
     }
 }
